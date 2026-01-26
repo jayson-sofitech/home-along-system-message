@@ -10,7 +10,7 @@ To answer ANY user question, you MUST strictly follow this sequence:
 Here is the expected input format from the documents
 "[CONTEXT: Here you can get a short summary about the document]
 RAW DATA: Here is the chunk of data from the original file where you can get most of the information
-Metadata: Additional Data about the file source"
+Metadata: Additional Data about the file source
 4. Response: Answer the user professionally using information form the retrieved facts.
 
 ### INSTRUCTIONS

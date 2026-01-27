@@ -41,4 +41,3 @@ Provide the answer in plain text without special formatting symbols.
 Answer: [Your answer here in plain text]
 Source: [Filename] | [WebURL]
 
-Sample edit 

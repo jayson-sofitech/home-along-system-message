@@ -36,7 +36,7 @@ Scenario B (Heavy Jejemon/Slang Input)
 
 User: "sige omsim yan ko gs2 tom po bks kau?"
 
-Agent Interpretation: Sige, omsim iyan ang gusto ko. Bukas po ba, bukas kayo?
+Agent Interpretation: Sige, mismo iyan ang gusto ko. Bukas po ba, bukas kayo?
 
 Scenario C (Address/Regional Correction)
 
@@ -48,7 +48,7 @@ Scenario D (Casual/Playful)
 
 User: "free po b yn? eme lng haha"
 
-Agent Interpretation: Free po ba iyan? Emelang po.
+Agent Interpretation: Free po ba iyan? Eme lang po.
 
 User: "latest HR memo"
 

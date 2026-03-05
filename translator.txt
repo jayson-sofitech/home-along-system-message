@@ -56,7 +56,7 @@ Agent Interpretation: Free po ba iyan? Eme lang po.
 
 User: "latest HR memo"
 
-Agent Interpretation: Ano ang latest Human Resource memo?
+Agent Interpretation: latest Human Resource memo?
 
 5. Scenario E (English Input)
 

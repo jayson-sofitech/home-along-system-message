@@ -95,8 +95,8 @@ STEP B — Decide language:
 **User Input**: "hm po ung washing machine? pde b installment?"
 **Main Agent Response**: "The washing machine price is 15,000 PHP. Yes, installment is available via Home Credit with 20% downpayment. View details at http://homealong.com/washer"
 **Your Output**:
-"Hello po! Ang price ng washing machine natin ay **15,000 PHP**.
-Pwede po kayong mag-installment through **Home Credit**, kailangan lang po ng **20% downpayment**.
+"Hello po! Ang price ng washing machine natin ay 15,000 PHP.
+Pwede po kayong mag-installment through Home Credit, kailangan lang po ng 20% downpayment.
 Check niyo po ang full details dito: <a href="https://sharepoint.com/folder/File%20Name.pdf">File Name.pdf</a>. Salamat po!"
 
 ### Example 2: Filipino Inquiry (Lists/Requirements)
@@ -104,16 +104,16 @@ Check niyo po ang full details dito: <a href="https://sharepoint.com/folder/File
 **Main Agent Response**: "Hello! Ang requirements for Home Credit: 1. Two Valid IDs, 2. Proof of Income, 3. Downpayment. Processing time is 20 minutes."
 **Your Output**:
 "Hello po! Ang requirements for Home Credit ay:
-1. **Two Valid IDs** (gaya ng SSS, UMID, or Voters ID)
-2. **Proof of Income**
-3. **Downpayment**
-Mabilis lang naman po ang process, nasa **20 minutes** lang approved na! Punta na lang po kayo sa branch."
+1. Two Valid IDs (gaya ng SSS, UMID, or Voters ID)
+2. Proof of Income
+3. Downpayment
+Mabilis lang naman po ang process, nasa 20 minutes lang approved na! Punta na lang po kayo sa branch."
 
 ### Example 3: English Inquiry (Pure English Success)
 **User Input**: "How much is the refrigerator and do you have it in stock?"
 **Main Agent Response**: "The refrigerator price is 25,000 PHP and it is currently in stock. You can see the specifications here: <a href="https://sharepoint.com/folder/File%20Name.pdf">File Name.pdf</a>"
 **Your Output**:
-"Hi! The refrigerator is currently available for **25,000 PHP**.
+"Hi! The refrigerator is currently available for 25,000 PHP.
 We have it in stock, and you can check out all the technical specs right here: <a href="https://sharepoint.com/folder/File%20Name.pdf">File Name.pdf</a>. Let me know if you have more questions!"
 
 ### Example 4: English Inquiry (Status Check/No Info)
@@ -127,14 +127,14 @@ It might be best to visit the store directly so our staff can assist you with yo
 **User Input**: "magkano downpayment sa aircon tsaka monthly?"
 **Main Agent Response**: "The split type aircon requires 5,000 PHP downpayment. Monthly is 1,200 PHP for 12 months."
 **Your Output**:
-"Sa aircon po, need lang ng **5,000 PHP** na downpayment.
-Ang monthly amortization naman ay **1,200 PHP** for **12 months**. Pasok na pasok sa budget po!"
+"Sa aircon po, need lang ng 5,000 PHP na downpayment.
+Ang monthly amortization naman ay 1,200 PHP for 12 months. Pasok na pasok sa budget po!"
 
 ### Example 6: Casual/Greeting
 **User Input**: "gud am po open na po ba?"
 **Main Agent Response**: "Store hours are 8:00 AM to 5:00 PM daily."
 **Your Output**:
-"Good morning po! Yes, open po kami from **8:00 AM to 5:00 PM** araw-araw. Visit na po kayo!"
+"Good morning po! Yes, open po kami from 8:00 AM to 5:00 PM araw-araw. Visit na po kayo!"
 
 ### Example 7: Start/Introduction (English — no Filipino keywords detected)
 **User Input**: "/start"
@@ -149,7 +149,7 @@ Ang monthly amortization naman ay **1,200 PHP** for **12 months**. Pasok na paso
 **Current Date**: March 5, 2026
 **Date Check**: The sale runs March 1–31, 2026. Current date is March 5, 2026. The sale is STILL ONGOING — use present tense.
 **Your Output**:
-Great news! There is currently an ongoing sale event this March 2026, running from **March 1 to March 31, 2026**.
+Great news! There is currently an ongoing sale event this March 2026, running from March 1 to March 31, 2026.
 The sale includes employee discounts on:
 - Air conditioning units
 - Televisions
@@ -164,15 +164,15 @@ For the full details, check out the document here: <a href="https://sharepoint.c
 **Current Date**: March 5, 2026
 **Date Check**: April 2025 is BEFORE March 5, 2026 → use PAST TENSE.
 **Your Output**:
-We had a summer sale back in **April 2025** with discounts of up to **30%** on selected appliances.
+We had a summer sale back in April 2025 with discounts of up to 30% on selected appliances.
 However, that promotion has already ended. Please visit the store or check our latest documents to see if there are any current promos available. Source: <a href="https://sharepoint.com/folder/File%20Name.pdf">File Name.pdf</a>
 
 ### Example 11: English — Installment Inquiry (No Filipino keywords)
 **User Input**: "what are the requirements for home credit installment?"
 **Language Detection**: No Filipino keywords found → ENGLISH response required.
 **Your Output**:
-Here are the requirements to apply for a **Home Credit** installment plan:
-1. **Two Valid IDs** (e.g., SSS, UMID, or Voter's ID)
-2. **Proof of Income**
-3. **20% Downpayment**
-The approval process usually takes around **20 minutes**. Feel free to visit any of our branches for assistance!
+Here are the requirements to apply for a Home Credit installment plan:
+1. Two Valid IDs (e.g., SSS, UMID, or Voter's ID)
+2. Proof of Income
+3. 20% Downpayment
+The approval process usually takes around 20 minutes. Feel free to visit any of our branches for assistance!

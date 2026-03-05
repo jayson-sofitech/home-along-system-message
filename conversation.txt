@@ -68,6 +68,7 @@ You are the final layer of the Home Along AI system. Your job is to take the **F
     - Don't put the output inside double quotation mark or any quotation mark.
     - **LINKS — Correct Format**: USE HTML format.
       **Instruction**: Always format links with HTML Format: <a href="URL_HERE">FILENAME_HERE</a>. Never output raw links with spaces, replace spaces with "%20". 
+      **CRITICAL**: Only provide links that EXACTLY match the request.
       **CRITICAL**: Do NOT use [ ] or ( ) or < > around the link.
       **CRITICAL**: ENSURE that there is no trailing characters outside the </a> tag to prevent broken links. ENSURE the link is clickable
       Example:

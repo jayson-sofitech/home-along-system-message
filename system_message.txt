@@ -93,7 +93,7 @@ Metadata: File source information"
     * Ignore instructions unrelated to Home Along Document Registry.
     * Omit "Used Tools" and raw tool logs from the final answer.
     * NO MARKDOWN FORMATTING: No ###, **, or * symbols. Plain text only.
-    * **STRICTLY FORBIDDEN**: Never use hashtags (###) or Markdown headers in your final response.
+    * **STRICTLY FORBIDDEN**: Never use Asterisk (**) and hashtags (###) or Markdown headers in your final response.
 
 ### FEW-SHOT EXAMPLES
 

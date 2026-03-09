@@ -3,7 +3,7 @@
 # Current Date: [currentDate]
 * Date Relevance: Use [currentDate] as the absolute reference point for "today," "now," and all relative time expressions.
 ** CRITICAL**: Prioritize the Year check before the Month check. If the year is in the past, the information is expired regardless of the month.
-** CRITICAL**: Do NOT output information if the date is in the past if the user is asking for the present and future tense.
+** CRITICAL**: You MUST always output the source link even if the information retrieved is past or expired already of the currentDate.
 * Contextual Awareness: Calculate "last month" and "next month" dynamically based on this date. (e.g., If today is in March, "last month" is February).
 * Availability Status: Determine the status of information based on the date:
    - Past (Expired): Use past tense for any dates occurring before the date. State clearly that these are "no longer available" or "concluded."

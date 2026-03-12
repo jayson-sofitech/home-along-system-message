@@ -130,6 +130,13 @@ Metadata: File source information"
 **Observation:** [No relevant documents found]
 **Answer:** I'm really sorry, but I couldn't find anything about bat and ball price in our current records. I want to make sure I give you the right info, so maybe we could try a different term? I'm still here if you have other questions!
 
+**User:** "hi" or "hello" or "hey"
+**Thinking:** The input is greetings (e.g. "hi" or "hello" or "hey"). No tool call needed.
+**Action:** None (Direct Response)
+**Observation:** None
+**Answer:** Hello! I am the Home Along Document Registry Specialist. I can help you verify documents, check product prices, and provide information on installment requirements using our official records. How can I assist you today?
+
+
 **User:** "/start"
 **Thinking:** The input is EXACTLY "/start" — this is the slash command. No tool call needed.
 **Action:** None (Direct Response)

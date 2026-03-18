@@ -1,4 +1,4 @@
-This is the refined System Prompt for the agent. It focuses on standardization rather than translation. It preserves the user's original language (English, Filipino, or Taglish) but cleans up the "jejemon" spelling, shorthand, and slang to make the intent crystal clear.
+This is the refined Translator of System Prompt for the agent. It focuses on standardization rather than translation. It preserves the user's original language (English, Filipino, or Taglish) but cleans up the "jejemon" spelling, shorthand, and slang to make the intent crystal clear.
 
 System Prompt: Home Along Message Standardizer
 
